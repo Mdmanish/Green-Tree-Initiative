@@ -1,0 +1,311 @@
+@font-face {
+	font-family: Flood;
+	src: url("Flood\ Std\ Regular/flood_std_regular.otf") format("opentype");
+}
+
+body {
+	font-family: Helvetica, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	text-align: center;
+}
+
+header p {
+	margin: auto;
+	width: 7.88rem;
+	padding: 2rem;
+	font: normal normal bold 1.13rem/1.38rem Helvetica;
+	letter-spacing: 0px;
+	color: #354463;
+	opacity: 1;
+}
+
+/* *******************FORM******************* */
+
+.main {
+	text-align: center;
+	background: transparent url('assets/donation/annie-spratt-427340-unsplash.png') 0% 0% no-repeat padding-box;
+	opacity: 1;
+	padding-bottom: 2rem;
+}
+
+.main__flood {
+	padding: 2rem;
+	text-align: center;
+	font: normal normal normal 2.63rem/2.88rem Flood Std;
+	font-family: Flood;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+
+
+.main__payment-form {
+	margin: auto;
+	width: 80%;
+	padding: 5%;
+	text-align: center;
+	background: #354463 0% 0% no-repeat padding-box;
+	opacity: 1;
+	display: grid;
+	row-gap: 1.5rem;
+	column-gap: 1rem;
+	grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr 1fr 0.5fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-areas:
+		"info info info info"
+		"fname fname lname lname"
+		"address address address address"
+		"city city state zipcode"
+		"email email email email"
+		"paymentinfo paymentinfo paymentinfo paymentinfo"
+		"card card card card"
+		"month year cvc cvc"
+		"clickparagraph clickparagraph clickparagraph clickparagraph"
+		"botton botton botton botton"
+		"back back back back";
+}
+
+
+.main__payment-form__heading {
+	text-align: left;
+	font: normal normal bold 1.56rem/1.75rem Helvetica;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+	grid-area: info;
+}
+
+.main__payment-form label {
+	text-align: left;
+	font: normal normal normal 0.8rem/0.81rem Helvetica;
+	letter-spacing: 0.028rem;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+.main__payment-form input {
+	display: inline-block;
+	min-width: none;
+	width: 100%;
+	background-color: #354463;
+	padding: 0.5rem 0rem;
+	font-size: 0.9rem;
+	border: none;
+	color: white;
+	border-bottom: 2px solid #C1F7D5;
+}
+
+.main__payment-form select {
+	display: inline-block;
+	min-width: none;
+	width: 2rem;
+	background-color: #354463;
+	padding: 0.5rem 0rem;
+	font-size: 0.9rem;
+	border: none;
+	color: white;
+	border-bottom: 2px solid #C1F7D5;
+}
+
+.main__payment-form input:focus {
+	outline: none;
+}
+
+.main__payment-form__fname {
+	grid-area: fname;
+	text-align: left;
+}
+
+.main__payment-form__lname {
+	grid-area: lname;
+	text-align: left;
+}
+
+.main__payment-form__address {
+	grid-area: address;
+	text-align: left;
+}
+
+.main__payment-form__address input {
+	width: 100%;
+}
+
+.main__payment-form__city {
+	grid-area: city;
+	text-align: left;
+}
+
+.main__payment-form__state {
+	grid-area: state;
+}
+
+.main__payment-form__state select {
+	width: 3rem;
+}
+
+.main__payment-form__zipcode {
+	grid-area: zipcode;
+}
+
+.main__payment-form__zipcode input {
+	width: 3rem;
+}
+
+.main__payment-form__email {
+	text-align: left;
+	grid-area: email;
+}
+
+.main__payment-form__email input {
+	width: 100%;
+}
+
+.main__payment-form__info {
+	text-align: left;
+	font: normal normal bold 1.38rem/1.75rem Helvetica;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+	padding-top: 2rem;
+	grid-area: paymentinfo;
+}
+
+.main__payment-form__creditcard {
+	text-align: left;
+	grid-area: card;
+}
+
+.main__payment-form__creditcard input {
+	width: 100%;
+}
+
+.main__payment-form__month {
+	grid-area: month;
+	text-align: left;
+}
+
+.main__payment-form__month input {
+	width: 2rem;
+}
+
+.main__payment-form__year {
+	text-align: left;
+	grid-area: year;
+}
+
+.main__payment-form__year input {
+	width: 3rem;
+}
+
+.main__payment-form__cvc {
+	text-align: left;
+	grid-area: cvc;
+}
+
+.main__payment-form__cvc input {
+	width: 3rem;
+}
+
+.main__payment-form__paragraph {
+	grid-area: clickparagraph;
+	text-align: left;
+	font: normal normal bold 1.13rem/1.38rem Helvetica;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+	padding: 0rem 2rem;
+	padding-top: 2rem;
+}
+
+.main__payment-form__botton {
+	grid-area: botton;
+}
+
+.main__payment-form__botton button {
+	background: #C1F7D5 0% 0% no-repeat padding-box;
+	border-radius: 2rem;
+	font: normal normal bold 1rem/1.25rem Helvetica;
+	padding: 1rem 4rem;
+	letter-spacing: 0px;
+	color: #354463;
+	opacity: 1;
+}
+
+.main__payment-form__back {
+	text-align: left;
+	grid-area: back;
+}
+
+.main__payment-form__back a {
+	text-decoration: underline;
+	font: normal normal 300 0.88rem/1.5rem Helvetica;
+	letter-spacing: -0.14px;
+	color: #C1F7D5;
+	opacity: 1;
+}
+
+
+/* ******************************FOR TABLET************************************** */
+
+@media(min-width: 48rem) and (max-width: 69.99rem) {
+	.main__flood {
+		padding: 2rem 10rem;
+	}
+
+	.main__payment-form {
+		width: 60%;
+	}
+}
+
+/* ***********************FOR DESKTOP******************************** */
+
+@media(min-width: 70rem) {
+	.main {
+		display: grid;
+		grid-template-columns: 55% 45%;
+		grid-template-areas: "form flood";
+		background-position: -6.875rem 0rem;
+	}
+
+	.main__payment-form {
+		grid-area: form;
+		width: 70%;
+		margin: 4rem 6rem;
+		grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-areas:
+			"info info info info"
+			"fname fname lname lname"
+			"address address address address"
+			"city city state zipcode"
+			"email email email email"
+			"paymentinfo paymentinfo paymentinfo paymentinfo"
+			"card card card card"
+			"month year cvc cvc"
+			"clickparagraph clickparagraph clickparagraph clickparagraph"
+			"back back botton botton"
+	}
+
+	.main__payment-form__back {
+		margin-top: 1rem;
+	}
+
+	.main__payment-form__botton button {
+		padding: 0.5rem 2rem;
+	}
+
+	.main__flood {
+		grid-area: flood;
+		margin-top: 2rem;
+		padding-right: 50%;
+		text-align: left;
+		font-size: 3rem;
+	}
+}

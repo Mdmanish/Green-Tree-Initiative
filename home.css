@@ -1,0 +1,1319 @@
+/* ***************************Main CSS************************************** */
+
+@font-face {
+	font-family: Flood;
+	src: url("Flood\ Std\ Regular/flood_std_regular.otf") format("opentype");
+}
+
+body {
+	font-family: Helvetica, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 4fr;
+	grid-template-columns: 50% 50%;
+	grid-template-areas:
+		"title aboutus"
+		"title ourstory"
+		"title news"
+		"donate donate"
+	;
+	justify-items: left;
+	margin-top: 1em;
+}
+
+header h1 {
+	font-size: 1.125rem;
+	font-weight: bold;
+	padding: 0rem 1rem;
+	margin: 1rem;
+	grid-area: title;
+}
+
+.header-aboutus {
+	grid-area: aboutus;
+}
+
+.header-ourstory {
+	grid-area: ourstory;
+}
+
+.header-news {
+	grid-area: news;
+}
+
+header a {
+	font-size: 1rem;
+	display: inline-block;
+	margin: 0.3rem;
+}
+
+.button-flex {
+	text-align: center;
+	margin: 1.5rem;
+	grid-area: donate;
+}
+
+.button-flex a {
+	font-size: 1.5rem;
+	font-weight: bold;
+	padding: 0.5rem;
+	width: 18rem;
+	border-radius: 2rem;
+	background-color: #C1F7D5;
+	opacity: 1;
+	border: none;
+}
+
+/* ***********************STOP CLIMATE*************************** */
+
+.stop-climate {
+	/* width: 100%; */
+	position: relative;
+	text-align: center;
+	height: 37rem;
+	background: url('assets/home/annie-spratt-135307-unsplash.png');
+	opacity: 0.76;
+	object-fit: cover;
+	display: block;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.stop-climate h1 {
+	position: absolute;
+	top: 2rem;
+	left: 2rem;
+	width: 11.31rem;
+	height: 8.5rem;
+	text-align: left;
+	font: normal normal normal 2.75rem/2.88rem Flood Std;
+	font-family: Flood;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+.stop-climate section {
+	position: absolute;
+	top: 18rem;
+	left: 10%;
+	right: 10%;
+	height: 15rem;
+	width: 80%;
+	background-color: white;
+	text-align: center;
+}
+
+.stop-climate section p {
+	text-align: center;
+	font: normal normal bold 22px/28px Helvetica;
+	letter-spacing: 0px;
+	color: #354463;
+	opacity: 1;
+	padding: 0.15rem;
+	position: relative;
+	top: 2rem;
+}
+
+.stop-climate section a {
+	text-align: center;
+	background: transparent;
+	letter-spacing: 0px;
+	color: #354463;
+	opacity: 1;
+	padding: 1rem;
+	position: relative;
+	top: 4rem;
+}
+
+.stop-climate_paragraph .the-issue {
+	position: relative;
+	height: 2.5rem;
+	width: 10rem;
+	font: normal normal normal 0.875rem/2.5rem Helvetica;
+	letter-spacing: 0.035rem;
+	color: #FFFFFF;
+	opacity: 1;
+	background-color: #354463;
+	top: -1rem;
+	margin: auto;
+}
+
+/* **************************LEARN SECTION************************** */
+
+.learn-class {
+	background: #C1F7D5;
+	opacity: 1;
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	padding: 0rem 2rem 1rem 2rem;
+}
+
+
+.learn-class1 {
+	position: relative;
+}
+
+.learn-class1 > p {
+	position: absolute;
+	padding: 1rem 2rem;
+	display: inline-block;
+	background-color: #354463;
+	top: -1.5rem;
+	left: calc(50% - 5rem);
+	color: white;
+}
+
+.learn-class .take-action {
+	position: absolute;
+	height: 2.5rem;
+	width: 10rem;
+	font: normal normal normal 0.875rem/2.5rem Helvetica;
+	letter-spacing: 0.035rem;
+	color: #FFFFFF;
+	opacity: 1;
+	background-color: #354463;
+	left: calc(50% - 5rem);
+	bottom: 0rem;
+}
+
+
+.learn-class div h3 {
+	position: relative;
+	text-align: left;
+	font-weight: bold;
+	font-size: 1.125rem;
+	margin-bottom: 0.625rem;
+}
+
+.learn-class div p {
+	text-align: left;
+	font-size: 1rem;
+	position: relative;
+}
+
+.learn-class__top {
+	text-align: left;
+	position: relative;
+	margin-top: 4rem;
+}
+
+.learn-class__bottom {
+	text-align: left;
+	position: relative;
+	margin-top: 2rem;
+}
+
+/* ********************************WHAT WE DO********************* */
+
+.tree-section {
+	display: block;
+	background: #354463;
+	opacity: 1;
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+
+.tree-section__what-we-do h1 {
+	display: inline-block;
+	font-size: 1.5rem;
+	margin: auto;
+	margin-top: 4.375rem;
+	padding: 1.25rem 3.125rem;
+	background-color: white;
+}
+
+.tree-section__paragraph-1 {
+	position: relative;
+	font-size: 1.75rem;
+	top: 3rem;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	padding: 1rem;
+}
+
+.tree-planting {
+	position: relative;
+	top: 6rem;
+	width: 80%;
+	height: 26rem;
+	background: white;
+	opacity: 1;
+	left: 10%;
+	text-align: center;
+	margin-top: 2rem;
+	margin-bottom: 6rem;
+}
+
+.tree-planting h1 {
+	position: relative;
+	top: 40%;
+	font-weight: bold;
+	color: #354463;
+}
+
+.tree-planting p {
+	position: relative;
+	top: 47%;
+	font: normal;
+	padding: 10px;
+	color: #354463;
+	letter-spacing: -0.14px;
+	opacity: 1;
+}
+
+.button-read-more button {
+	position: relative;
+	font-size: 1.125rem;
+	font-weight: bold;
+	height: 2.5rem;
+	width: 9.5rem;
+	background: #C1F7D5;
+	border-radius: 6.25rem;
+	opacity: 1;
+	top: 15rem;
+	border: none;
+}
+
+.tree-img .img1 {
+	position: relative;
+	top: -11rem;
+	width: 15.5rem;
+	height: 11rem;
+	background: transparent;
+	opacity: 1;
+}
+
+/* *****************HUNGER SECTION******************* */
+
+.hunger-issue {
+	position: relative;
+	width: 100%;
+	height: 63rem;
+	top: 2rem;
+	text-align: center;
+	background: url('assets/home/did-you-know-background.png');
+	opacity: 1;
+	object-fit: cover;
+	display: block;
+	background-position: center;
+	/* padding-left: 1rem; */
+	background-repeat: no-repeat;
+}
+
+.hunger-issue h1 {
+	position: absolute;
+	top: 3rem;
+	left: 2rem;
+	width: 19.5rem;
+	height: 12rem;
+	text-align: left;
+	font: normal normal normal 44px/46px Flood Std;
+	letter-spacing: 0px;
+	font-family: Flood;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+.hunger-issue__take-action {
+	position: absolute;
+	width: 9.5rem;
+	height: 2.5rem;
+	background: #C1F7D5 0% 0% no-repeat padding-box;
+	font: normal normal bold 0.86rem/2.81rem Helvetica;
+	font-size: 0.94rem;
+	letter-spacing: 0rem;
+	color: #354463;
+	border-radius: 6.25rem;
+	top: 13rem;
+	left: 2rem;
+	opacity: 1;
+}
+
+.hunger-issue__section {
+	position: relative;
+	width: 100%;
+	height: 65%;
+	top: 35%;
+	text-align: center;
+	/* background-color: #354463; */
+}
+
+.hunger-issue__section__articles {
+	height: 8.5rem;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	opacity: 1;
+	position: relative;
+	width: 80%;
+	background: white;
+	opacity: 1;
+	left: 10%;
+	text-align: center;
+	top: 0.5rem;
+}
+
+.hunger-issue__section__articles__did-u-know {
+	position: absolute;
+	width: 10rem;
+	height: 2.5rem;
+	top: -1.3rem;
+	left: calc(50% - 5rem);
+	background: #354463 0% 0% no-repeat padding-box;
+	font: normal normal bold 0.86rem/2.81rem Helvetica;
+	color: white;
+	opacity: 1;
+	margin: auto;
+}
+
+.hunger-issue__section__articles__img-circle {
+	position: relative;
+	width: 2rem;
+	height: 2rem;
+	left: 75%;
+	background: #C1F7D5 0% 0% no-repeat padding-box;
+	opacity: 1;
+	border-radius: 1rem;
+	top: 1.5rem;
+	margin: 1.5rem;
+}
+
+.hunger-issue__section__articles__img-circle img {
+	position: relative;
+	top: 0.5rem;
+}
+
+.hunger-issue__section__articles__heading {
+	position: absolute;
+	width: 98px;
+	height: 22px;
+	text-align: left;
+	left: 2rem;
+	top: 2rem;
+	font: normal normal bold 22px/28px Helvetica;
+	letter-spacing: 0px;
+	color: #354463;
+	opacity: 1;
+}
+
+.hunger-issue__section__articles__paragraph {
+	position: absolute;
+	top: 4rem;
+	text-align: left;
+	left: 2rem;
+	width: 70%;
+	height: 34px;
+	color: #354463;
+	opacity: 1;
+}
+
+/* *****************************STORY**************************************************** */
+
+.tree-section>.stories {
+	position: relative;
+	width: 100%;
+	height: 52.5rem;
+	top: 2rem;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.stories .img1 {
+	position: relative;
+	top: 4rem;
+	width: 70%;
+	height: 20rem;
+	opacity: 1;
+}
+
+.stories__paragraph {
+	position: relative;
+	top: 6rem;
+	width: 70%;
+	/* height: 296px; */
+	padding-bottom: 2rem;
+	left: 15%;
+	background: #354463;
+	opacity: 1;
+}
+
+.stories__paragraph .p1 {
+	padding: 2rem;
+	color: white;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.stories__paragraph .p2 {
+	height: 18px;
+	text-align: center;
+	font: normal normal normal 11px/13px Helvetica;
+	letter-spacing: 0.44px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+.sotories__read-more-button {
+	position: relative;
+	font-size: 1.125rem;
+	font-weight: bold;
+	height: 2.5rem;
+	width: 9.5rem;
+	background: #C1F7D5;
+	border-radius: 1.25rem;
+	opacity: 1;
+	top: 0rem;
+	border: none;
+}
+
+.stories__tag {
+	position: absolute;
+	top: 2.8rem;
+	left: calc(50% - 5rem);
+	width: 10rem;
+	height: 2.5rem;
+	background: #354463;
+	opacity: 1;
+	font: normal normal normal 0.90rem/2.50rem Helvetica;
+	letter-spacing: 0.035rem;
+	color: #FFFFFF;
+}
+
+/* ***********************ACTION********************************* */
+
+.action__flood {
+	position: relative;
+	top: 7rem;
+	left: 10%;
+	width: 80%;
+	height: 11.63rem;
+	text-align: center;
+	font: normal normal normal 2.75rem/2.88rem Flood Std;
+	font-family: Flood;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+	margin-bottom: 9rem;
+}
+
+.action {
+	position: relative;
+	/* height: 220rem; */
+	/* background:#C1F7D5; */
+	opacity: 1;
+	text-align: center;
+}
+
+.action__articles__img {
+	position: relative;
+	width: 80%;
+	height: 20rem;
+	top: 3rem;
+	opacity: 1;
+}
+
+.action h2 {
+	position: relative;
+	width: 80%;
+	height: 4.13rem;
+	left: 10%;
+	top: 0.8rem;
+	text-align: center;
+	font: normal normal bold 1.4rem/1.75rem Helvetica;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+.action__articles__paragraph {
+	position: relative;
+	width: 80%;
+	height: 8rem;
+	left: 6%;
+	text-align: center;
+	height: 128px;
+	background: transparent 0% 0% no-repeat padding-box;
+	padding: 1rem;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+.action__articles__read-more-button {
+	position: relative;
+	font-size: 1.125rem;
+	font-weight: bold;
+	height: 2.5rem;
+	width: 9.5rem;
+	background: #C1F7D5;
+	border-radius: 6.25rem;
+	opacity: 1;
+	top: -2rem;
+	border: none;
+}
+
+.action__articles__tag {
+	position: relative;
+	top: -18.5rem;
+	left: calc(50% - 5rem);
+	width: 10rem;
+	height: 2.5rem;
+	background: white;
+	opacity: 1;
+	font: normal normal normal 0.90rem/2.50rem Helvetica;
+	letter-spacing: 0.035rem;
+	color: black;
+}
+
+/* **********************************SUBSCRIBE*************************************** */
+
+.subscribe {
+	width: 100%;
+	height: 13.5rem;
+	background: #C1F7D5 0% 0% no-repeat padding-box;
+	opacity: 1;
+	text-align: center;
+	position: relative;
+}
+
+.subscribe p {
+	position: relative;
+	width: 90%;
+	height: 78px;
+	top: 2rem;
+	left: 10%;
+	text-align: left;
+	font: normal normal bold 22px/28px Helvetica;
+	letter-spacing: 0px;
+	color: #354463;
+	opacity: 1;
+}
+
+.subscribe form {
+	position: relative;
+	top: 4rem;
+}
+
+#email {
+	width: 12rem;
+	height: 2.5rem;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border-radius: 100px;
+	opacity: 1;
+	border: none;
+	margin-right: 2rem;
+	font-size: 0.875rem;
+	text-align: center;
+}
+
+#submit {
+	width: 7rem;
+	height: 2.5rem;
+	background: #354463 0% 0% no-repeat padding-box;
+	border-radius: 100px;
+	opacity: 1;
+	color: white;
+	border: none;
+}
+
+
+
+/* ***********************************FOR TABLET************************************** */
+@media(min-width: 48rem) and (max-width: 69.99rem) {
+	header {
+		display: grid;
+		grid-template-columns: 2fr 1fr 2fr 4fr;
+		grid-template-rows: 4rem 3rem;
+		justify-items: left;
+		grid-template-areas:
+			"title title title donatebutton"
+			"aboutus ourstory news donatebutton"
+		;
+		margin-top: 0em;
+	}
+
+	header h1 {
+		font-size: 1.125rem;
+		font-weight: bold;
+		margin-left: 10%;
+		grid-area: title;
+	}
+
+	.header-aboutus {
+		margin: auto;
+		grid-area: aboutus;
+	}
+
+	.header-ourstory {
+		margin: auto;
+		grid-area: ourstory;
+	}
+
+	.header-news {
+		margin: auto;
+		grid-area: news;
+	}
+
+	.button-flex {
+		margin: auto;
+		grid-area: donatebutton;
+	}
+
+	.button-flex a {
+		font-size: 1rem;
+		padding: 0.7rem;
+		width: 7rem;
+	}
+
+	/* **************************STOP CLIMATE *************************************/
+	.stop-climate section p {
+		text-align: left;
+		padding: 0rem 4rem;
+	}
+
+	.stop-climate section a {
+		text-align: left;
+	}
+
+	.stop-climate_paragraph .the-issue {
+		margin-left: 3rem;
+	}
+
+	/* **************************LEARN SECTION *************************************/
+	.learn-class {
+		row-gap: 2rem;
+	}
+
+	.learn-class div p {
+		padding: 0rem 2rem;
+	}
+
+	.learn-class div h3 {
+		padding: 0rem 2rem;
+	}
+
+	.learn-class .take-action {
+		position: relative;
+		height: 2.5rem;
+		width: 10rem;
+		left: calc(50% - 5rem);
+		bottom: -30%;
+	}
+
+	/* ********************************WHAT WE DO***********************/
+	.section1 {
+		margin: auto;
+		display: grid;
+		grid-template-rows: 2fr 2fr 6fr 6fr 6fr;
+		grid-template-areas: "tag" "para" "tree" "education" "advocacy";
+	}
+
+	.tree-section__what-we-do {
+		margin-left: -45%;
+		grid-area: tag;
+	}
+
+	.tree-section__paragraph-1 {
+		top: 2rem;
+		text-align: left;
+		padding: 0rem 10% 2rem 10%;
+		grid-area: para;
+	}
+
+	.section1 .tree {
+		margin: auto;
+		grid-area: tree;
+	}
+
+	.section1 .education {
+		margin: auto;
+		grid-area: education;
+	}
+
+	.section1 .advocacy {
+		margin: auto;
+		grid-area: advocacy;
+	}
+
+	.tree-planting {
+		width: 80%;
+		left: 0%;
+		height: 17rem;
+		top: 0rem;
+		margin-top: 0rem;
+		margin-bottom: 0rem;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+		grid-template-areas:
+			"tree_pic tree_heading"
+			"tree_pic tree_para"
+			"read_more tree_para"
+		;
+	}
+
+	.tree-img .img1 {
+		top: -7rem;
+		left: 0%;
+		grid-area: tree_pic;
+	}
+
+	.tree-planting h1 {
+		top: 2rem;
+		text-align: left;
+		left: 0.5rem;
+		font-size: 1.5rem;
+		padding-right: 4rem;
+		grid-area: tree_heading;
+	}
+
+	.tree-planting p {
+		top: 4rem;
+		text-align: left;
+		grid-area: tree_para;
+	}
+
+	.button-read-more button {
+		top: 10rem;
+		grid-area: read_more;
+		left: 2.5rem;
+	}
+
+
+
+	/* *****************HUNGER SECTION******************* */
+	.hunger-issue {
+		height: 50rem;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas: "flood_action articles";
+	}
+
+	.flood-and-action {
+		grid-area: flood_action;
+	}
+
+	.hunger-issue__section {
+		grid-area: articles;
+		top: 5rem;
+	}
+
+	.hunger-issue h1 {
+		position: absolute;
+		top: 5rem;
+		left: 4rem;
+		width: 10rem;
+		height: 12rem;
+	}
+
+	.hunger-issue__take-action {
+		top: 21rem;
+		left: 4rem;
+	}
+
+	/* *****************STORY************************ */
+
+	.tree-section>.stories {
+		height: 56rem;
+	}
+
+	.stories .img1 {
+		top: 4rem;
+		width: 80%;
+		height: 30rem;
+	}
+
+	.stories__paragraph {
+		top: 0rem;
+		width: 70%;
+		left: 25%;
+	}
+
+	.stories__paragraph .p1 {
+		padding: 4rem;
+		text-align: left;
+	}
+
+	.stories__paragraph .p2 {
+		font-size: 12px;
+		padding: 0rem 4rem;
+		text-align: left;
+	}
+
+	.sotories__read-more-button {
+		top: 6rem;
+		left: -12rem;
+	}
+
+	.stories__tag {
+		left: 8rem
+	}
+
+	/* ******************ACTION****************************** */
+
+	.action {
+		display: grid;
+		grid-template-rows: 13rem 25rem 25rem;
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas:
+			"flood flood"
+			"img1 section11"
+			"section2 img2"
+		;
+	}
+
+	.action__flood {
+		text-align: left;
+		position: relative;
+		top: 5rem;
+		left: 3rem;
+		width: 80%;
+		height: 2rem;
+		margin-bottom: 0rem;
+		grid-area: flood;
+	}
+
+	.action .img1 {
+		grid-area: img1;
+	}
+
+	.action .section11 {
+		grid-area: section11;
+	}
+
+	.action .img2 {
+		grid-area: img2;
+	}
+
+	.action .section2 {
+		grid-area: section2;
+	}
+
+	.action__articles__img {
+		position: relative;
+		width: 80%;
+		height: 15rem;
+		top: 0rem;
+		opacity: 1;
+	}
+
+	.action h2 {
+		position: relative;
+		width: 80%;
+		height: 4.13rem;
+		left: 3rem;
+		text-align: left;
+		top: 2rem;
+		font-size: 1.5rem;
+	}
+
+	.action__articles__paragraph {
+		position: relative;
+		width: 80%;
+		height: 8rem;
+		left: 2rem;
+		top: 1.5rem;
+		text-align: left;
+		padding: 1rem;
+	}
+
+	.action__articles__read-more-button {
+		position: relative;
+		font-size: 1.125rem;
+		height: 2.5rem;
+		width: 9.5rem;
+		left: -20%;
+		top: 1.5rem;
+	}
+
+	.action__articles__tag {
+		position: relative;
+		top: 0rem;
+		left: 3rem;
+		width: 10rem;
+		height: 2.5rem;
+	}
+
+	/* *********************SUBSCRIBE***************************** */
+
+	#email {
+		width: 60%;
+	}
+
+	#submit {
+		width: 20%;
+	}
+
+	.subscribe p {
+		width: 60%;
+		left: 10%;
+	}
+}
+
+
+
+
+
+/* ***********************************FOR DESKTOP************************************** */
+@media(min-width: 70rem) {
+
+	/* ********************************HEADER******************************** */
+	header {
+		display: grid;
+		grid-template-columns: 3fr 1fr 1fr 1fr 2fr;
+		grid-template-rows: auto;
+		justify-items: left;
+		grid-template-areas: "title aboutus ourstory news donatebutton";
+		margin-top: 0em;
+	}
+
+	header h1 {
+		font-size: 1.125rem;
+		font-weight: bold;
+		padding: 1rem 10.5rem;
+		grid-area: title;
+	}
+
+	.header-aboutus {
+		margin: auto;
+		grid-area: aboutus;
+	}
+
+	.header-ourstory {
+		margin: auto;
+		grid-area: ourstory;
+	}
+
+	.header-news {
+		margin: auto;
+		grid-area: news;
+	}
+
+	.button-flex {
+		grid-area: donatebutton;
+	}
+
+	.button-flex a {
+		font-size: 1rem;
+		padding: 0.7rem;
+		width: 10rem;
+	}
+
+	/* **************************STOP CLIMATE *************************************/
+
+	.stop-climate {
+		display: grid;
+		grid-template-columns: 50% 50%;
+		grid-template-areas: "para flood";
+	}
+
+	.stop-climate section {
+		text-align: center;
+		top: 10rem;
+		left: 10rem;
+		height: 20rem;
+		width: 25rem;
+		grid-area: para;
+	}
+
+	.stop-climate div h1 {
+		top: 10rem;
+		left: 5rem;
+		font-size: 3rem;
+		grid-area: flood;
+	}
+
+	.stop-climate section p {
+		text-align: left;
+		padding: 0rem 2rem;
+		font-size: 2rem;
+		top: 2rem;
+	}
+
+	.stop-climate section a {
+		text-align: left;
+	}
+
+	.stop-climate_paragraph .the-issue {
+		position: relative;
+		margin-left: 3rem;
+	}
+
+	/* ******************LEARN******************************** */
+
+	.learn-class {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: auto;
+		grid-area: "learn volunteer share donate";
+	}
+
+	.learn-class__top {
+		margin-top: 2rem;
+		padding: 3rem 2rem;
+	}
+
+	.learn-class__bottom {
+		padding: 3rem 2rem;
+	}
+
+	.learn-class .take-action {
+		bottom: -3.5rem;
+	}
+
+	/* ********************************WHAT WE DO***********************/
+
+	.section1 {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 2fr 2fr 10fr;
+		grid-template-areas:
+			"tag tag tag"
+			"para para para"
+			"tree education advocacy"
+		;
+	}
+
+	.tree-section__what-we-do {
+		grid-area: tag;
+	}
+
+	.tree-section__paragraph-1 {
+		grid-area: para;
+	}
+
+	.section1 .tree {
+		margin-left: 20%;
+		grid-area: tree;
+	}
+
+	.section1 .education {
+		margin-left: 10%;
+		grid-area: education;
+	}
+
+	.section1 .advocacy {
+		margin-right: 20%;
+		grid-area: advocacy;
+	}
+
+	.tree-planting {
+		width: 60%;
+		margin-bottom: 0rem;
+	}
+
+	.tree-img .img1 {
+		width: 100%;
+		top: -12rem;
+		left: 13%;
+	}
+
+	.tree-section__what-we-do {
+		margin-left: -60%;
+	}
+
+	.tree-section__paragraph-1 {
+		top: 3rem;
+		text-align: left;
+		padding: 0rem 10%;
+	}
+
+	/* *****************HUNGER SECTION******************* */
+	.hunger-issue {
+		height: 55rem;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas: "flood_action articles";
+	}
+
+	.flood-and-action {
+		grid-area: flood_action;
+	}
+
+	.hunger-issue__section {
+		grid-area: articles;
+		top: 5rem;
+	}
+
+	.hunger-issue h1 {
+		top: 7rem;
+		left: 8rem;
+		width: 18rem;
+		height: 12rem;
+		font-size: 5rem;
+	}
+
+	.hunger-issue__take-action {
+		top: 23rem;
+		left: 8rem;
+	}
+
+	/* *****************STORY************************ */
+	.tree-section>.stories {
+		height: 32.5rem;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas: "para pic";
+	}
+
+	.stories__paragraph {
+		grid-area: para;
+	}
+
+	.stories__img {
+		grid-area: pic;
+	}
+
+	.stories .img1 {
+		position: relative;
+		top: 4rem;
+		width: 70%;
+		height: 25rem;
+		opacity: 1;
+	}
+
+	.stories__paragraph {
+		top: 9rem;
+		width: 70%;
+		height: 210px;
+		left: 21.5rem;
+		text-align: left;
+	}
+
+	.sotories__read-more-button {
+		height: 2.5rem;
+		width: 9.5rem;
+		top: 5rem;
+	}
+
+	.stories__tag {
+		left: 60%;
+	}
+
+	/* ******************ACTION****************************** */
+
+	.action {
+		display: grid;
+		grid-template-rows: 12rem 25rem 25rem;
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas:
+			"flood flood"
+			"img1 section11"
+			"section2 img2"
+		;
+	}
+
+
+	.action__flood {
+		position: relative;
+		top: 5rem;
+		left: 10%;
+		width: 80%;
+		height: 2rem;
+		margin-bottom: 0rem;
+		grid-area: flood;
+	}
+
+	.action .img1 {
+		grid-area: img1;
+	}
+
+	.action .section11 {
+		grid-area: section11;
+	}
+
+	.action .img2 {
+		grid-area: img2;
+	}
+
+	.action .section2 {
+		grid-area: section2;
+	}
+
+	.action__articles__img {
+		position: relative;
+		width: 80%;
+		height: 20rem;
+		top: 0rem;
+		opacity: 1;
+	}
+
+	.action h2 {
+		position: relative;
+		width: 80%;
+		height: 4.13rem;
+		left: 3rem;
+		text-align: left;
+		top: 2rem;
+	}
+
+	.action__articles__paragraph {
+		position: relative;
+		width: 80%;
+		height: 8rem;
+		left: 2rem;
+		height: 128px;
+		text-align: left;
+		padding: 1rem;
+	}
+
+	.action__articles__read-more-button {
+		position: relative;
+		font-size: 1.125rem;
+		height: 2.5rem;
+		width: 9.5rem;
+		left: -32%;
+	}
+
+	.action__articles__tag {
+		position: relative;
+		top: 0rem;
+		left: 3rem;
+		width: 10rem;
+		height: 2.5rem;
+	}
+
+	/* ***********************SUBSCRIBE************************ */
+
+	.subscribe {
+		height: 10rem;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas: "sub_text sub_form";
+	}
+
+	.subscribe p {
+		position: relative;
+		width: 70%;
+		height: 78px;
+		top: 3rem;
+		left: 20%;
+		text-align: left;
+		grid-area: sub_text;
+	}
+
+	.subscribe form {
+		position: relative;
+		top: 3.5rem;
+		text-align: left;
+		grid-area: sub_form;
+	}
+
+	#email {
+		width: 15rem;
+		height: 2rem;
+	}
+
+	#submit {
+		height: 2rem;
+	}
+}

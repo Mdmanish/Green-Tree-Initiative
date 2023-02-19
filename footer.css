@@ -1,0 +1,121 @@
+/* *********************FOOTER*********************** */
+
+footer {
+	/* height: 600px; */
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	opacity: 1;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas:
+		"title contact"
+		"follow learn"
+		"empty climate";
+}
+
+.footer__title {
+	position: relative;
+	width: 5.88rem;
+	/* height: 3.88rem; */
+	padding: 3rem 2rem;
+	text-align: left;
+	font: normal normal bold 1.13rem/1.34rem Helvetica;
+	letter-spacing: 0px;
+	color: #354463;
+	opacity: 1;
+	grid-area: title;
+}
+
+.footer__contact-us {
+	position: relative;
+	width: 7.88rem;
+	/* height: 4.63rem; */
+	padding-top: 3rem;
+	text-align: left;
+	font: normal normal 300 0.875rem/1.25rem Helvetica;
+	letter-spacing: -0.009rem;
+	color: #354463;
+	opacity: 1;
+	grid-area: contact;
+}
+
+.footer__follow-us {
+	width: 5.12rem;
+	/* height: 6.88rem; */
+	padding: 3rem 2rem;
+	text-align: left;
+	font: normal normal 300 0.875rem/1.5rem Helvetica;
+	letter-spacing: -0.009rem;
+	color: #354463;
+	opacity: 1;
+	grid-area: follow;
+}
+
+.footer__follow-us a {
+	text-decoration: underline;
+}
+
+.footer__learn-more {
+	width: 6.25rem;
+	/* height: 5.38rem; */
+	padding-top: 3rem;
+	text-align: left;
+	font: normal normal 300 0.875rem/1.5rem Helvetica;
+	letter-spacing: -0.009rem;
+	color: #354463;
+	opacity: 1;
+	grid-area: learn;
+}
+
+.footer__learn-more a {
+	text-decoration: underline;
+}
+
+.footer__climate {
+	width: 11.31rem;
+	/* height: 8.5rem; */
+	padding-top: 1rem;
+	text-align: right;
+	font: normal normal normal 2.75rem/2.87rem Flood Std;
+	font-family: Flood;
+	letter-spacing: 0px;
+	color: #354463;
+	opacity: 1;
+	grid-area: climate;
+}
+
+
+@media(min-width: 48rem) and (max-width: 69.99rem) {
+	footer {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		grid-template-areas:
+			"title contact follow"
+			"empty learn climate"
+		;
+	}
+
+	.footer__learn-more {
+		grid-area: learn;
+	}
+
+	.footer__climate {
+		grid-area: climate;
+	}
+}
+
+@media(min-width: 70rem) {
+	footer {
+		display: grid;
+		grid-template-columns: 2fr 1fr 1fr 2fr;
+		grid-template-rows: auto;
+		grid-template-areas:
+			"title contact learn follow climate";
+	}
+
+	.footer__climate {
+		margin-top: 2rem;
+		margin-right: 8rem;
+	}
+}
